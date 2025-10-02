@@ -30,7 +30,7 @@ find_package(OpenCV REQUIRED COMPONENTS opencv_core opencv_imgproc opencv_highgu
 # ------------------------------------------------------------------
 
 # 将你的 C++ 文件名填在这里
-add_executable(fit_trajectory main.cpp)
+add_executable(fit_trajectory main_new.cpp)
 
 # ------------------------------------------------------------------
 # 添加包含目录 (好习惯)
